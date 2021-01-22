@@ -12,46 +12,45 @@
     <title>Stefan Petrovic</title>
 </head>
 <body class="overflow-x-hidden bg-gray-50 dark:bg-gray-800">
-    <div class="relative flex flex-col w-screen mx-auto font-sans text-base max-w-1440 text-dawn md:flex-row">
-
-        <div class="static flex flex-col justify-between w-full p-32 lg:w-1/2 md:max-w-408 md:fixed md:h-screen lg:max-w-496 lg:py-88 lg:pl-88 md:pr-0">
+    <!-- w-screen mx-auto font-sans text-base max-w-1440 md:flex-row -->
+    <div class="relative flex flex-col w-screen mx-auto text-base max-w-screen-2xl lg:flex-row">
+        <!-- justify-between p-32 md:w-1/2 md:max-w-408 md:fixed md:h-screen lg:max-w-496 lg:py-88 lg:pl-88 md:pr-0 -->
+        <div class="static flex flex-col justify-between p-8 xl:py-24 xl:pl-24 xl:pr-0 xl:max-w-lg xl:fixed xl:h-screen w-full">
             <div class="flex flex-col">
                 <div>
-                    <h1 class="text-4xl font-bold leading-tight lg:text-7xl lg:leading-none">
-                        Hi, I'm <br> Stefan Petrovic.
+                    <h1 class="text-4xl font-bold leading-tight sm:text-5xl">
+                        Hi, I’m <br> Stefan Petrovic.
                     </h1>
-                    <div class="leading-loose">
-                        <p class="mt-4 text-lg">
+                    <div class="leading-relaxed">
+                        <p class="mt-2 text-md sm:text-lg">
                             I'm currently studying a MSc in Human-Oriented Artificial Intelligence at the Technical University of Denmark and work as a student helper at Novozymes.
                             I mostly work with Python and have a passion for Data Science and AI.
                         </p>
                     </div>
                 </div>
-                <div class="flex items-center w-full mt-12">
-                    <img src="assets/img/me.jpg" alt="Picture of me" class="w-16 h-16 object-cover rounded-full">
-                    <ul class="flex pl-4">
-                        <li>
-                            <a href="https://github.com/StefPetro/" target="_blank" class="flex items-center">
-                                <img class="h-5" src="assets/icons/github_light_theme.svg">
-                                Github
-                                <img class="h-4 pl-1" src="assets/icons/external_link_light_theme.svg">
-                            </a>
-                        </li>
-                    </ul>
-                </div>
             </div>
-        </div>
+            <div class="flex items-center mt-8">
+                <img src="assets/img/me.jpg" alt="Picture of me" class="w-14 h-14 object-cover rounded-full">
+                <ul class="flex pl-4">
+                    <li>
+                        <a href="https://github.com/StefPetro/" target="_blank" class="flex items-center">
+                            <img class="h-5" src="assets/icons/github_light_theme.svg">
+                            Github
+                            <img class="h-4 pl-1" src="assets/icons/external_link_light_theme.svg">
+                        </a>
+                    </li>
+                </ul>
+            </div>
             
-        <div class="static p-32 w-full lg:w-1/2 md:max-w-536 lg:max-w-736 md:absolute md:right-0 lg:py-88 lg:pr-88 md:pl-0">
+        </div>
+        <!-- p-32 md:w-1/2 md:max-w-536 lg:max-w-736 md:absolute md:right-0 lg:py-88 lg:pr-88 md:pl-0 -->
+        <div class="static p-8 md:max-w-xl xl:py-24 xl:pr-24 xl:pl-0 xl:right-0 xl:absolute xl:max-w-3xl">
             <div id="projects">
                 <h2 class="text-3xl font-bold">
                     Projects
                 </h2>
-                <div class="bg-white mt-4 max-w-md rounded-md shadow-md overflow-hidden md:max-w-2xl">
-                    <div class="md:flex">
-                        <div class="md:flex-shrink-0">
-                          <img class="h-48 w-full object-cover md:w-48" src="assets/img/covid_map.png" alt="Map showing Covid-19 cases in Denmark">
-                        </div>
+                <div class="bg-white mt-4 rounded-md shadow-md overflow-hidden">
+                    <div class="lg:flex">
                         <div class="p-4">
                             <h4 class="uppercase text-sm">
                                 Python
@@ -65,13 +64,13 @@
                             </p>
                             <ul class="flex pt-3">
                                 <li>
-                                    <a href="#" target="_blank" class="flex items-center">
+                                    <a href="http://covid-19-denmark.herokuapp.com/" target="_blank" class="flex items-center">
                                         Website
                                         <img class="h-4 pl-1" src="assets/icons/external_link_light_theme.svg">
                                     </a>
                                 </li>
                                 <li class="pl-6">
-                                    <a href="#" target="_blank" class="flex items-center">
+                                    <a href="https://github.com/StefPetro/CovidDKDash" target="_blank" class="flex items-center">
                                         <img class="h-5" src="assets/icons/github_light_theme.svg">
                                         Github
                                         <img class="h-4 pl-1" src="assets/icons/external_link_light_theme.svg">
