@@ -1,10 +1,10 @@
 {
-  "name": "StefPetro.github.io",
+  "name": "stefpetro.github.io",
   "version": "1.0.0",
   "description": "Portfolio Website",
   "main": "index.js",
   "scripts": {
-    "build-css": "postcss ./css/tailwind.css -o ./css/styles.css"
+    "build-css": "npx tailwindcss -i ./css/tailwind.css -o ./css/styles.css --watch"
   },
   "repository": {
     "type": "git",
@@ -17,9 +17,10 @@
     "url": "https://github.com/StefPetro/StefPetro.github.io/issues"
   },
   "homepage": "https://github.com/StefPetro/StefPetro.github.io#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.0.24"
+  },
   "dependencies": {
-    "autoprefixer": "^10.1.0",
-    "postcss-cli": "^8.3.1",
-    "tailwindcss": "^2.0.2"
+    "live-server": "^1.2.2"
   }
 }
